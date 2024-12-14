@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <style>
+
+        p { color: blue; } /* Especificidad 1 */
+
+        .mi-clase { color: green; } /* Especificidad 10 */
+
+        #mi-id { color: red; } /* Especificidad 100 
+        El color del texto será rojo porque #mi-id tiene la especificidad más alta (100).
+        */
+
+    </style>
+
+</head>
+
+<body>
+
+    <p class="mi-clase" id="mi-id">Texto aquí</p>
+
+</body>
+
+</html>
+

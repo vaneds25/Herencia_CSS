@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <style>
+
+        p { color: blue !important; } /* Sobrescribe todo: El texto será azul debido a !important, a pesar de que #mi-id tiene mayor especificidad. */
+
+        .mi-clase { color: green; }
+
+        #mi-id { color: red; }
+
+    </style>
+
+</head>
+
+<body>
+
+    <p class="mi-clase" id="mi-id">Texto aquí</p>
+
+</body>
+
+</html>

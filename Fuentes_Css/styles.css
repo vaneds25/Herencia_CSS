@@ -1,0 +1,11 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; /* Opcional: define un tamaño base */
+    line-height: 1.6; /* Opcional: define el interlineado */
+}
+h1 {
+    font-weight: 700; /* Usa el peso de 700 para títulos */
+}
+p {
+    font-weight: 400; /* Usa el peso de 400 para párrafos */
+}
